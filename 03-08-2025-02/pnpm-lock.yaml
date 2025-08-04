@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@hal-nguyen/training':
+        specifier: ^1.0.2
+        version: 1.0.2
+
+packages:
+
+  '@hal-nguyen/training@1.0.2':
+    resolution: {integrity: sha512-J+VQc3mpJc233xpar3wa4W2s56Fqi4JGdaFd4hRqayXVNlmyBcqtPCCJeseG19YypHDdVxiymICqx8PQtKRK2g==}
+
+snapshots:
+
+  '@hal-nguyen/training@1.0.2': {}
