@@ -10,6 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hal-nguyen/training": "^1.0.2"
-  }
+    "-": "^0.0.1",
+    "@gieo/utils": "^1.0.5",
+    "@hal-nguyen/training": "^1.0.2",
+    "@himbo22/sum": "^1.0.5",
+    "@thienhoan/utils": "^1.0.2",
+    "thongmai": "^1.0.9"
+  },
+  "type": "module"
 }

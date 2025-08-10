@@ -46,6 +46,13 @@ export class MathServer {
     try {
       const url = new URL(req.url || '', `http://localhost:${this.port}`);
       
+      if (req.method === 'GET' && url.pathname === '/') {
+        console.log('hello world');
+        res.statusCode = 200;
+        res.end(JSON.stringify({ message: 'hello world' }));
+        return;
+      }
+      
       if (req.method === 'GET' && url.pathname === '/health') {
         res.statusCode = 200;
         res.end(JSON.stringify({ status: 'OK', message: 'Server is running' }));
